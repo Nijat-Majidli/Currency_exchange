@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    width: 40vw;
+    height: 40vh;
+    margin-top: 10vh;
+    padding: 2%;
+}
+
+.title {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input, select {
+    width: 5vw;
+    height: 5vh;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 25% 75%;
+    margin: 20%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
